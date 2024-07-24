@@ -75,10 +75,6 @@ remote_theme: eliottvincent/bay
 plugins:
   - jekyll-feed
 
-markdown: kramdown
-kramdown:
-  input: GFM
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
