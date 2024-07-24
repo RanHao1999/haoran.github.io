@@ -71,7 +71,7 @@ footer:
       link: https://orcid.org/my-orcid?orcid=0000-0002-8234-6480
       username: "Hao Ran"
 # Build settings
-theme: bay_jekyll_theme
+remote_theme: eliottvincent/bay
 plugins:
   - jekyll-feed
 
