@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   My interests include studying the Sun at multiwavelengths, investigating the interaction between the particles in the heliosphere, and the effects of solar activities on the Earth's space environment.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://haoran.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+iurl: "https://haoran.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  RanHao1999
 
@@ -35,11 +35,11 @@ header:
       slug: /     # <-- index.md
     - name: Blog  # <-- blog.md
     - name: Research  # <-- work.md
-      url: /research/
+      url: /research
     - name: CV    # <-- cv.md
-      url: /cv/
+      url: /cv
     - name: Notes # <-- notes.md
-      url: /notes/
+      url: /notes
 footer:
   show_powered_by: true
   contact:
@@ -72,6 +72,7 @@ footer:
       username: "Hao Ran"
 # Build settings
 theme: bay_jekyll_theme
+#remote_theme: eliottvincent/bay
 plugins:
   - jekyll-feed
 

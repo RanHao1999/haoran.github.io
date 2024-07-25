@@ -1,9 +1,9 @@
 ---
-layout: research
+layout: default
 title: Research
-slug: /research
+permalink: /research/
 ---
 
 Hi! For test.
 
-<br/>
+
