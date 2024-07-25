@@ -24,8 +24,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   Hi! This is Hao Ran, a PhD candidate at the Mullard Space Science Laboratory, Univerisity College London.
   My interests include studying the Sun at multiwavelengths, investigating the interaction between the particles in the heliosphere, and the effects of solar activities on the Earth's space environment.
 
+<<<<<<< HEAD
 baseurl: "" # the subpath of your site, e.g. /blog
 iurl: "https://haoran.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+=======
+baseurl: "/haoran.github.io" # the subpath of your site, e.g. /blog
+url: "https://RanHao1999.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+>>>>>>> 5e0889ab68c2df599e5c79278c13f6383dc9a4cf
 twitter_username: jekyllrb
 github_username:  RanHao1999
 
@@ -71,14 +76,14 @@ footer:
       link: https://orcid.org/my-orcid?orcid=0000-0002-8234-6480
       username: "Hao Ran"
 # Build settings
+<<<<<<< HEAD
 theme: bay_jekyll_theme
 #remote_theme: eliottvincent/bay
+=======
+remote_theme: eliottvincent/bay
+>>>>>>> 5e0889ab68c2df599e5c79278c13f6383dc9a4cf
 plugins:
   - jekyll-feed
-
-markdown: kramdown
-kramdown:
-  input: GFM
 
 
 # Exclude from processing.
